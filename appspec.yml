@@ -7,6 +7,9 @@ files:
     overwrite: true
 hooks:
   BeforeInstall:
+    - location: scripts/cleanup.sh
+      timeout: 300
+      runas: root
     - location: scripts/httpd_install.sh
       timeout: 300
       runas: root
