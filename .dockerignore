@@ -1,0 +1,7 @@
+.git
+scripts
+appspec.yml
+Dockerfile
+buildspec.yml
+.dockerignore
+
