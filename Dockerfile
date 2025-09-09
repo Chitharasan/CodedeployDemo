@@ -1,3 +1,3 @@
-FROM public.ecr.aws/docker/library/httpd:2.4
+FROM --platform=linux/amd64 httpd:alpine
 COPY . /usr/local/apache2/htdocs/
-
+EXPOSE 80
