@@ -29,6 +29,6 @@ phases:
       - cat imagedefinitions.json
 
 artifacts:
-    files:
+  files:
       - imagedefinitions.json
-    discard-paths: yes
+  discard-paths: yes
