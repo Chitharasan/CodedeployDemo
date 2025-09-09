@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     IMAGE_REPO_NAME: "deploy-app1"
-    CONTAINER_NAME: "deploy"
+    CONTAINER_NAME: "deploy-1app"
 
 phases:
   pre_build:
